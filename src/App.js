@@ -1,8 +1,9 @@
 import React from "react";
 
 import "./App.css";
-import "./Components/Homepage/homepage.styles.scss";
-import HompageComponent from "./Components/Homepage/Hompage.component";
+import "./pages/homepage/homepage.styles.scss";
+import HompageComponent from "./pages/homepage/Hompage.component.jsx";
+import MenuItemComponent from "./Components/menu-items/menu-item.component.jsx";
 
 function App() {
   return (
