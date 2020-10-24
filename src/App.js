@@ -3,7 +3,7 @@ import { Route, Switch, Link } from "react-router-dom";
 import "./App.css";
 import "./pages/homepage/homepage.styles.scss";
 import HompageComponent from "./pages/homepage/Hompage.component.jsx";
-import MenuItemComponent from "./Components/menu-items/menu-item.component.jsx";
+import shoppageComponent from "./pages/shop/shoppage.component";
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={HompageComponent} />
         <Route exact path="/hats" component={hat} />
+        <Route exact path="/shop" component={shoppageComponent} />
       </Switch>
     </div>
   );
