@@ -4,10 +4,12 @@ import "./App.css";
 import "./pages/homepage/homepage.styles.scss";
 import HompageComponent from "./pages/homepage/Hompage.component.jsx";
 import shoppageComponent from "./pages/shop/shoppage.component";
+import HeaderComponent from "./Components/header/header.component";
 
 function App() {
   return (
     <div>
+      <HeaderComponent />
       <Switch>
         <Route exact path="/" component={HompageComponent} />
         <Route exact path="/hats" component={hat} />
